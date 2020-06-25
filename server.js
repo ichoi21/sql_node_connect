@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const colors = require("colors");
 const PORT = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));
