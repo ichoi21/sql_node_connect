@@ -6,7 +6,7 @@ const {
   addTodo,
   delTodo,
   editTodo,
-} = require("../connection");
+} = require("../config/orm.js");
 
 router.get("/api", (req, res) => {
   seeAllTodos()

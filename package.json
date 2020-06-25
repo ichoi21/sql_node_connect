@@ -5,7 +5,6 @@
   "main": "server.js",
   "dependencies": {
     "colors": "^1.4.0",
-    "cowsay": "^1.4.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mysql": "^2.18.1"
