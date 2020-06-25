@@ -16,7 +16,7 @@ $(document).on("click", "#btnCancel", function () {
   window.location.href = `/`;
 });
 
-$(document).on("click", "#btnDelete", function () {
+$(document).on("click", "#btnEdit", function () {
   const todoId = $(this).attr("data-id");
-  window.location.href = `/delete?id=${todoId}`;
+  window.location.href = `/edit?id=${todoId}`;
 });
